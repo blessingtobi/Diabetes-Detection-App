@@ -35,7 +35,7 @@ st.markdown("""
 model = joblib.load("diabetes_model.pkl")
 
 st.markdown('<div class="title">🩺 Diabetes Mellitus Prediction App</div>', unsafe_allow_html=True)
-st.markdown('<div class="subtitle">By DSA 2025</div>', unsafe_allow_html=True)
+st.markdown('<div class="subtitle">DSA 2025</div>', unsafe_allow_html=True)
 st.markdown("---")
 
 st.write("Enter your medical information below to predict whether you're likely to have diabetes.")
